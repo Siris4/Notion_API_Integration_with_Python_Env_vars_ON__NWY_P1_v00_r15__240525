@@ -1,0 +1,40 @@
+2024-05-27 00:25:51,202 - Notion API Key: secret_(shhhh, it's secret)
+2024-05-27 00:25:51,202 - Notion Page ID: nope
+2024-05-27 00:25:51,202 - ChromeDriver Path: D:\D-H4wk Downloads and Installations\Software Installations\Chrome Web Driver\Webdriver 125\chromedriver-win64\chromedriver.exe
+2024-05-27 00:25:51,749 - HTTP Request: GET https://api.notion.com/v1/pages/5354d9f547544dce8dfb32227b721a35 "HTTP/1.1 200 OK"
+2024-05-27 00:25:51,765 - Integration access confirmed. 
+Page data: {'object': 'page', 'id': '5354d9f5-4754-4dce-8dfb-32227b721a35', 'created_time': '2024-05-24T21:21:00.000Z', 'last_edited_time': '2024-05-27T03:18:00.000Z', 'created_by': {'object': 'user', 'id': '62f1ff92-afe8-434b-8e92-58de0ef499c0'}, 'last_edited_by': {'object': 'user', 'id': '62f1ff92-afe8-434b-8e92-58de0ef499c0'}, 'cover': None, 'icon': None, 'parent': {'type': 'block_id', 'block_id': '165e4f55-68d5-4d75-97ae-bf02e10561a8'}, 'archived': False, 'in_trash': False, 'properties': {'title': {'id': 'title', 'type': 'title', 'title': [{'type': 'text', 'text': {'content': '[ 20.0014 ] My Selenium Notion Integration [240524]', 'link': None}, 'annotations': {'bold': False, 'italic': False, 'strikethrough': False, 'underline': False, 'code': False, 'color': 'default'}, 'plain_text': '[ 20.0014 ] My Selenium Notion Integration [240524]', 'href': None}]}}, 'url': 'https://www.notion.so/20-0014-My-Selenium-Notion-Integration-240524-5354d9f547544dce8dfb32227b721a35', 'public_url': None, 'request_id': '2577a140-8af2-4cc0-927f-24b61427a276'}
+2024-05-27 00:25:51,765 - Page title: [ 20.0014 ] My Selenium Notion Integration [240524]
+2024-05-27 00:25:51,765 - Attempting to initialize ChromeDriver with path: D:\D-H4wk Downloads and Installations\Software Installations\Chrome Web Driver\Webdriver 125\chromedriver-win64\chromedriver.exe
+2024-05-27 00:25:55,570 - ChromeDriver initialized successfully.
+2024-05-27 00:25:56,313 - HTTP Request: GET https://api.notion.com/v1/blocks/5354d9f547544dce8dfb32227b721a35/children "HTTP/1.1 200 OK"
+2024-05-27 00:25:56,328 - Notion page content backed up successfully to backup_page_content.json.
+2024-05-27 00:26:00,137 - Navigated to Notion page for scraping favorites.
+2024-05-27 00:26:10,296 - Failed to scrape the first favorite: Message: no such element: Unable to locate element: {"method":"xpath","selector":"(//div[contains(@class, 'sidebar')]//div[contains(@class, 'favorite')])[1]"}
+  (Session info: chrome-headless-shell=125.0.6422.113); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Stacktrace:
+	GetHandleVerifier [0x00007FF708751F22+60322]
+	(No symbol) [0x00007FF7086CCE99]
+	(No symbol) [0x00007FF708587EBA]
+	(No symbol) [0x00007FF7085D7676]
+	(No symbol) [0x00007FF7085D773C]
+	(No symbol) [0x00007FF70861E967]
+	(No symbol) [0x00007FF7085FC25F]
+	(No symbol) [0x00007FF70861BC80]
+	(No symbol) [0x00007FF7085FBFC3]
+	(No symbol) [0x00007FF7085C9617]
+	(No symbol) [0x00007FF7085CA211]
+	GetHandleVerifier [0x00007FF708A6946D+3301613]
+	GetHandleVerifier [0x00007FF708AB3693+3605267]
+	GetHandleVerifier [0x00007FF708AA9410+3563664]
+	GetHandleVerifier [0x00007FF7088042F6+790390]
+	(No symbol) [0x00007FF7086D74DF]
+	(No symbol) [0x00007FF7086D33D4]
+	(No symbol) [0x00007FF7086D3562]
+	(No symbol) [0x00007FF7086C2F6F]
+	BaseThreadInitThunk [0x00007FFEEC94257D+29]
+	RtlUserThreadStart [0x00007FFEEE1EAA48+40]
+
+2024-05-27 00:26:10,984 - HTTP Request: PATCH https://api.notion.com/v1/blocks/5354d9f547544dce8dfb32227b721a35/children "HTTP/1.1 200 OK"
+2024-05-27 00:26:11,000 - Notion page updated successfully.
+2024-05-27 00:26:11,000 - Notion database updated successfully.
